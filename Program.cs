@@ -24,7 +24,7 @@ namespace nickelback
             foreach ((string artist, string song) songs in allSongs)
             {
 
-                //if songs are not nickelback, add songs to 
+                //if songs are not nickelback, add songs to  goodSongs list
 
                 if (songs.artist != "NickelBack")
                 {
@@ -32,6 +32,7 @@ namespace nickelback
                 }
                 Console.WriteLine(songs.artist);
             }
+            //loop through goodSongs and print them to the console
             foreach (var item in goodSongs)
             {
                 Console.WriteLine(item);
