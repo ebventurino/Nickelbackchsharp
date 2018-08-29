@@ -6,8 +6,10 @@ namespace nickelback
 {
     class Program
     {
+        // main code rendering what is below
         static void Main(string[] args)
         {
+            // new emppty list, new hashset comtaining songs and artists
             List<(string artist, string song)> goodSongs = new List<(string, string)>();
             HashSet<(string artist, string song)> allSongs = new HashSet<(string, string)>()
             {
